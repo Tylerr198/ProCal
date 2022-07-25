@@ -1,31 +1,55 @@
 *{
     align-items: center;
     font-family: "Poppins";
+    
 }
 
 header{
 font-size: 50px;
 text-align: center;
-margin-top: 20vh;
+margin-top: 5vh;
 font-family: "Poppins";
 color:white;
 }
 
 body{
-    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    
+
 }
+
 form{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 30vh;
+    min-height: 10vh;
     font-size: 30px;
     word-spacing: 2px;
     color:white;
 }
 
+.timeDiv{
+    padding: 0%;
+}
+
 .foodLog{
     display:flex;
     justify-content: center;
-    font-size: 30px;
+    font-size: 27px;
+    color: white;
+    padding: 0%;
+
+}
+
+.newInputDiv{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-size: 20px;
+}
+
+.timeDiv header{
+    min-height: 1vh;
+    color: white;
 }
